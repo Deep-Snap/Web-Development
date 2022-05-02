@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>Feedback Form</h1>
+        <form method="post" id="form1">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Name" maxlength="50" minlength="3" required><br>
+            <label for="portfolio">Portfolio</label>
+            <input type="url" id="portfolio" placeholder="Portfolio" required><br>
+            <label for="favColor">Favourite Colour : </label>
+            <input type="color" id="favColor" value="#ff0000"><br>
+            <label for="likeness">Likeness Rate : </label>
+            <input type="range" id="likeness" min="1" max="100" value="favColor"><br>
+            <button type="submit" form="form1" value="Submit">Submit</button>
+
+        </form>
+    </body>
+</html>
